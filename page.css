@@ -1,0 +1,108 @@
+:root{
+    --not_viewed: rgb(255, 255, 255);
+    --not_answered: rgb(255, 0, 0);
+    --answered: rgb(0, 255, 0);
+    --review: rgb(0, 0, 255);
+}
+button{
+    cursor: pointer;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, rgb(153, 144, 144), rgb(152, 126, 126));
+}
+.sidePannel{
+    padding-left: 0.45rem;
+    width: 20%;
+    position: absolute;
+    background-color: rgb(159, 159, 159);
+}
+.sidePannel button{
+    height: 35px;
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 5px 3px;
+    
+}
+.main{
+    margin-top: 0;
+    margin-left: 21%;
+}
+h2{
+    margin-right: 76%;
+}
+.head{
+    display: flex;
+
+}
+.head p, button{
+    margin: 0 5px;
+}
+.head button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+}
+.head p{
+    margin-top: 15px;
+}
+#not_answered{
+    background: var(--not_answered);
+}
+#answered{
+    background: var(--answered);
+}
+#review{
+    background: var(--review);
+}
+#body{
+    padding-left: 2%;
+    padding-top: 2%;
+    height: 70vh;
+    width: 95%;
+    background: rgb(227, 227, 227);
+}
+.bottom button{
+    height: 30px;
+    width: 20%;
+    padding: 5px;
+    border: 1px solid black;
+}
+#nav{
+    width: 100px;
+    padding: 2px;
+}
+#save{    
+    background-color: var(--answered);
+}
+.save{    
+    background-color: var(--answered);
+}
+.save_review{ 
+    background-color: orangered;   
+}
+.clr{    
+    background-color: var(--not_viewed);
+}
+.review{    
+    background-color: var(--review);
+}
+#calci{
+    margin-top: 5px;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+#user{
+    margin-top: 5px;
+    cursor: pointer;
+}
+.inst{
+    font-size: small;
+}
+#active{
+    background: yellow;
+}
